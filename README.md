@@ -115,6 +115,24 @@ New Angles(in radians): 0.75, 0.75, 1.47, 1.0,0.30\
 The output of the new position of the End Effector should be:
 (-41, -20.3)
 
+##  Software Testing and Verification
+
+[To be updated]
+
+## User Guide
+The program will help create a multi-degree of freedom robot having any number of segments as
+desired by you. You will be required to first input the number of segments you wish to have for
+the robot. Then you will be prompted to input the angles in radians and the lengths of each
+segment. The program will provide you with the details of the robot created and ask you for
+inputting further angles for implementing forward kinematics. Based on your inputs, the angle of
+each segment would be updated and a new end effector will be displayed to you. A graph having
+the pose of the robot will also be generated and displayed.
+
+## References
+PbPlots: https://github.com/InductiveComputerScience/pbPlots/tree/master/Cpp
+
+Forward Kinematics: M. W. Spong, S. Hutchinson and M. Vidyasagar, “Robot Modeling and
+Control”, First Edition, John Wiley & Sons INC. (Page 18-19)
 
 
 
